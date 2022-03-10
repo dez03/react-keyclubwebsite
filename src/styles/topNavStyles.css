@@ -1,0 +1,24 @@
+
+nav{
+  background-color: #3F0B0A;
+}
+.container{
+  display: flex;
+  align-items:center;
+}
+.UHSSEAL {
+  height: 55px;
+  margin: 1px;
+}
+
+.titleText{
+  font-size: 16px;
+  color: #EFD071;
+
+}
+.subtitle{
+  font-size: 13px;
+  color: #fff;
+ 
+}
+

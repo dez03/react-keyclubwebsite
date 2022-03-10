@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './global.css'
+import TopNavBar from "./components/topnav";
+import molNav from "./components/molNav";
 
-import App from './topnav';
+
+ReactDOM.render(<TopNavBar />, document.getElementById("root"));
 
 
-ReactDOM.render( <App />, document.getElementById
-('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
