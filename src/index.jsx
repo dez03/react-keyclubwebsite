@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import TopNavBar from "./components/topnav";
-import App from "./App"; //MUST BE TURNED INTO SOMETHING ELSE
+import MolNav from "./components/molnav"; 
 
 
 ReactDOM.render(
   <React.StrictMode>
     <TopNavBar />
-    <App />
+    <MolNav />
   </React.StrictMode>,
   document.getElementById("root")
 );
